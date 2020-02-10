@@ -4,6 +4,7 @@ import authors from "./data";
 
 const AuthorList = props => {
   const cards = authors.map(author => <AuthorCard author={author} />);
+
   return (
     <div className="content col-10">
       <div className="authors">
